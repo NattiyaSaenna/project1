@@ -28,7 +28,6 @@
 
 
             <a-asset-item id="boy" src="asset/boy_1/scene.gltf"></a-asset-item>
-            <a-asset-item id="girl" src="asset/girl_1/scene.gltf"></a-asset-item>
             <a-asset-item id="boy2" src="asset/boy_2/scene.gltf"></a-asset-item>
 
             <img id="TVScreenPic" src="asset/IMG_4399.jpg">
@@ -37,10 +36,7 @@
 
         <a-sky id="image-360" radius="100" src="#background" scale="1 1 1" rotation="0 -90 0"></a-sky>
         <a-entity gltf-model="#boy" position="-3.9 1 0" rotation="0 80 0" scale="0.005 0.005 0.005"></a-entity>
-        <a-entity gltf-model="#girl" position="-3.9 -3 10" rotation="0 120 0" scale="0.05 0.05 0.05"></a-entity>
-        <a-entity gltf-model="#boy2" position="0 -3 -10" rotation="0 30 0" scale="4 4 4" animation-mixer>
-            <a-animation attribute="rotation" dur="2000" easing="linear" to="0 360 0" repeat="indefinite"></a-animation>
-        </a-entity>
+        <a-entity gltf-model="#boy2" position="0 -3 -10" rotation="0 30 0" scale="4 4 4" animation-mixer>        </a-entity>
 
         <!-- disco -->
         <a-image id="discoImage" src="#disco" position="0 13 3.7" width="3.5" height="3.5"
