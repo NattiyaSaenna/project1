@@ -2,91 +2,79 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
-    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project</title>
+  <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.2.0/dist/aframe-extras.min.js"></script>
+  <script src="https://unpkg.com/aframe-phong-shader"></script>
 </head>
 
 <body>
-    <a-scene>
-        <a-assets>
-            <a-asset-item id="set-obj" src="assets/room/set.gltf"></a-asset-item>
-            <img src="assets/room/set.jpg">
-            <a-asset-item id="floor-obj" src="assets/room/floor.gltf"></a-asset-item>
-            <img id="floor-img" src="assets/room/flooron.png">
-            <img id="flooroff-mtl" src="assets/room/flooroff.png">
-            <a-asset-item id="spotlight-obj" src="assets/room/spotlight.gltf"></a-asset-item>
-            <img id="spotlight-img" src="assets/room/spotlight.png">
-            <img id="star-img" src="assets/room/star.png">
-            <a-asset-item id="tv-obj" src="assets/room/tv.gltf"></a-asset-item>
+  <a-scene>
+    <a-assets>
+      <a-asset-item id="stage" src="asset/stageshibuy002/scene.gltf"></a-asset-item>
+      <a-asset-item id="dance1" src="asset/boy_1/scene.gltf"></a-asset-item>
+      <a-asset-item id="dance2" src="asset/boy_2/scene.gltf"></a-asset-item>
+      <a-asset-item id="dance3" src="asset/meg_twerk/scene.gltf"></a-asset-item>
+      <a-asset-item id="dance4" src="asset/dog/scene.gltf"></a-asset-item>
+      <a-asset-item id="dance5" src="asset/twerk/scene.gltf"></a-asset-item>
+      <a-asset-item id="a1" src="asset/alien/scene.gltf"></a-asset-item>
+      <a-asset-item id="a2" src="asset/spooky/scene.gltf"></a-asset-item>
+      <a-asset-item id="a3" src="asset/straw_mat/scene.gltf"></a-asset-item>
+      <a-asset-item id="a4" src="asset/sitting_alien/scene.gltf"></a-asset-item>
+    </a-assets>
 
-            <audio id="music" src="./asset/music.mp3"></audio>
-            <img id="background" src="/asset/background.jpg">
-
-            <img src="/asset/disco.png" id="disco">
-
-
-            <a-asset-item id="boy" src="asset/boy_1/scene.gltf"></a-asset-item>
-            <a-asset-item id="boy2" src="asset/boy_2/scene.gltf"></a-asset-item>
-
-            <img id="TVScreenPic" src="asset/IMG_4399.jpg">
-            
-        </a-assets>
-
-        <a-sky id="image-360" radius="100" src="#background" scale="1 1 1" rotation="0 -90 0"></a-sky>
-        <a-entity gltf-model="#boy" position="-3.9 1 0" rotation="0 80 0" scale="0.005 0.005 0.005"></a-entity>
-        <a-entity gltf-model="#boy2" position="0 -3 -10" rotation="0 30 0" scale="4 4 4" animation-mixer>        </a-entity>
-
-        <!-- disco -->
-        <a-image id="discoImage" src="#disco" position="0 13 3.7" width="3.5" height="3.5"
-            animation="property: rotation; to: 0 360 0; dur: 5000; easing: linear; loop: true;"></a-image>
-
-        <!-- Lights -->
-        <a-entity id="light0" light="color:#f8b927;intensity:2;type:point;" position="0 -2 0.5"></a-entity>
-        <a-entity id="light1" light="type:point;color:#ab7121" position="-2.5 2.38 2.7"></a-entity>
-        <a-entity id="light2" light="color:#205eff;type:point;" position="2.9 2.29 2.7"></a-entity>
-        <a-entity id="light3" light="color:#a431f0;type:point;" position="-2.5 2.38 -2.5"></a-entity>
-        <a-entity id="light4" light="color:#f130cf;intensity:0.66;type:point;" position="3 2.38 -0.61"></a-entity>
-
-        <a-entity id="TV" class="intersectable">
-            <a-plane color="#000000" position="8.81 5.786 3.689" rotation="0 90 0" material="color:#000000"
-                geometry="height:4.6;width:8.46"></a-plane>
-<!--             <a-video src="asset/video.mp4" position="8.81 4.3 4.8" rotation="0 90 0" geometry="height:20;width:40">
-            </a-video> -->
-            <a-image src="asset/IMG_4399.jpg" position="8.81 4.3 4.8" rotation="0 90 0" geometry="height:20;width:40">
-            </a-image>
-        </a-entity>
-        <a-sound src="#music" autoplay="true" position="0 2 5"></a-sound>
+    <a-entity gltf-model="#dance1" position="10 -8 20" rotation="0 0 0" scale="4.5 4.5 4.5" animation-mixer></a-entity>
+    <a-entity gltf-model="#dance2" position="-10 -8 20" rotation="0 0 0" scale="6 6 6" animation-mixer></a-entity>
+    <a-entity gltf-model="#dance3" position="0 -8 10" rotation="0 0 0" scale="3 3 3" animation-mixer></a-entity>
+    <a-entity gltf-model="#dance4" position="20 -8 10" rotation="0 -40 0" scale="3 3 3" animation-mixer></a-entity>
+    <a-entity gltf-model="#dance5" position="10 -8 0" rotation="0 -40 0" scale="3 3 3" animation-mixer></a-entity>
+    <a-entity gltf-model="#a1" position="-20 0 50" rotation="0 180 0" scale="3 3 3" animation-mixer></a-entity>
+    <a-entity gltf-model="#a1" position="20 0 50" rotation="0 180 0" scale="3 3 3" animation-mixer></a-entity>
+    <a-entity gltf-model="#a1" position="0 0 50" rotation="0 180 0" scale="3 3 3" animation-mixer></a-entity>
+    <a-entity gltf-model="#a2" position="-10 -8 10" rotation="0 0 0" scale="1.5 1.5 1.5" animation-mixer></a-entity>
+    <a-entity gltf-model="#a3" position="15 -8 0" rotation="0 0 0" scale="10 10 10" animation-mixer></a-entity>
+    <a-entity gltf-model="#a4" position="20 -8 0" rotation="0 10 0" scale="3 3 3" animation-mixer></a-entity>
     
-    </a-scene>
-    <script>
-        // เริ่มต้นให้ภาพหมุนไปรอบเดียว
-        rotateImage(0);
+    <a-entity id="TV" class="intersectable">
+      <a-video src="asset/mv.mp4" position="0 20 60" rotation="0 0 0" geometry="height:35;width:50"></a-video>
+    </a-entity>
 
-        // ฟังก์ชันเพื่อหมุนภาพ
-        function rotateImage(degrees) {
-            // หาค่า Y จากองศา
-            var y = degrees;
+    <a-entity gltf-model="#stage" scale="10 10 10" position="0 0 80" rotation="0 180 0"></a-entity>
+    <a-sky color="#6EBAA7"></a-sky>
+    <a-light position="0 0 0" type="point"></a-light>
 
-            // กำหนดการหมุนใหม่
-            document.getElementById('disc').setAttribute('rotation', '0 ' + y + ' 0');
+    <a-entity class="blinking-light" position="28 50 55" light="type: point; intensity: 50; distance: 15.5; decay: 1"
+      scale="0.5 0.5 0.5"></a-entity>
+    <a-entity class="blinking-light" position="20 50 55" light="type: point; intensity: 50; distance: 15.5; decay: 1"
+      scale="0.5 0.5 0.5"></a-entity>
+    <a-entity class="blinking-light" position="12 50 55" light="type: point; intensity: 50; distance: 15.5; decay: 1"
+      scale="0.5 0.5 0.5"></a-entity>
+    <a-entity class="blinking-light" position="4 50 55" light="type: point; intensity: 50; distance: 15.5; decay: 1"
+      scale="0.5 0.5 0.5"></a-entity>
+    <a-entity class="blinking-light" position="-4 50 55" light="type: point; intensity: 50; distance: 15.5; decay: 1"
+      scale="0.5 0.5 0.5"></a-entity>
+    <a-entity class="blinking-light" position="-12 50 55" light="type: point; intensity: 50; distance: 15.5; decay: 1"
+      scale="0.5 0.5 0.5"></a-entity>
+    <a-entity class="blinking-light" position="-20 50 55" light="type: point; intensity: 50; distance: 15.5; decay: 1"
+      scale="0.5 0.5 0.5"></a-entity>
+    <a-entity class="blinking-light" position="-28 50 55" light="type: point; intensity: 50; distance: 15.5; decay: 1"
+      scale="0.5 0.5 0.5"></a-entity>
 
-            // เพิ่มองศาเพื่อให้ภาพหมุน
-            degrees += 1;
 
-            // เมื่อหมุนไปครบ 360 องศาให้กลับมาหมุนต่อจาก 0 องศา
-            if (degrees >= 360) {
-                degrees = 0;
-            }
+    <a-light id="light1" position="10 -8 10" type="point" intensity="10" distance="10" decay="2"
+      color="#ff69b4"></a-light>
+    <a-light id="light2" position="0 -8 20" type="point" intensity="10" distance="10" decay="2"
+      color="#ffff00"></a-light>
+    <a-light id="light3" position="-20 -8 0" type="point" intensity="10" distance="10" decay="2"
+      color="#00ff00"></a-light>
+    <a-light id="light4" position="-10 -8 -10" type="point" intensity="10" distance="10" decay="2"
+      color="#0000ff"></a-light>
 
-            // เรียกฟังก์ชันใหม่ทุกๆ 10 มิลลิวินาที
-            setTimeout(function () {
-                rotateImage(degrees);
-            }, 1);
-        }
-    </script>
 
+    <script src="light.js"></script>
+  </a-scene>
 </body>
 
 </html>
