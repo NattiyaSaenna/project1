@@ -1,0 +1,11 @@
+Model Information:
+* title:	Doge - Swing Dance
+* source:	https://sketchfab.com/3d-models/doge-swing-dance-a18578a6f4d94d9a812d7bbea2af3ba4
+* author:	kangbo (https://sketchfab.com/kangbo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Doge - Swing Dance" (https://sketchfab.com/3d-models/doge-swing-dance-a18578a6f4d94d9a812d7bbea2af3ba4) by kangbo (https://sketchfab.com/kangbo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

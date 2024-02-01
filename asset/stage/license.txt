@@ -1,0 +1,11 @@
+Model Information:
+* title:	Stage
+* source:	https://sketchfab.com/3d-models/stage-84e3d0ca8f114cff8b5bf60cbbefb861
+* author:	AXIS SIGN MAKER (https://sketchfab.com/RE-Z_Project)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Stage" (https://sketchfab.com/3d-models/stage-84e3d0ca8f114cff8b5bf60cbbefb861) by AXIS SIGN MAKER (https://sketchfab.com/RE-Z_Project) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cheering Female
+* source:	https://sketchfab.com/3d-models/cheering-female-e3caf864b3b84e6db5ab23cfb7fa318c
+* author:	Decentralized (https://sketchfab.com/decentralized13)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cheering Female" (https://sketchfab.com/3d-models/cheering-female-e3caf864b3b84e6db5ab23cfb7fa318c) by Decentralized (https://sketchfab.com/decentralized13) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

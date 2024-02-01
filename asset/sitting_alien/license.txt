@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sitting Alien
+* source:	https://sketchfab.com/3d-models/sitting-alien-4bd01b8c5d2147dfb66986a30e14a1f2
+* author:	Jewel the blue birb (https://sketchfab.com/kmorganc1)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sitting Alien" (https://sketchfab.com/3d-models/sitting-alien-4bd01b8c5d2147dfb66986a30e14a1f2) by Jewel the blue birb (https://sketchfab.com/kmorganc1) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

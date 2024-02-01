@@ -1,0 +1,11 @@
+Model Information:
+* title:	Dancing guy
+* source:	https://sketchfab.com/3d-models/dancing-guy-c0505a4534914e8587241fb31dfa39a9
+* author:	tonycaso (https://sketchfab.com/tonycaso)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Dancing guy" (https://sketchfab.com/3d-models/dancing-guy-c0505a4534914e8587241fb31dfa39a9) by tonycaso (https://sketchfab.com/tonycaso) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)œå

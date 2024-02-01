@@ -1,0 +1,11 @@
+Model Information:
+* title:	MarxJacobs Twerks
+* source:	https://sketchfab.com/3d-models/marxjacobs-twerks-461af77d6ba144ecaa61054f2f42ddc7
+* author:	raredankart (https://sketchfab.com/raredankart)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "MarxJacobs Twerks" (https://sketchfab.com/3d-models/marxjacobs-twerks-461af77d6ba144ecaa61054f2f42ddc7) by raredankart (https://sketchfab.com/raredankart) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
